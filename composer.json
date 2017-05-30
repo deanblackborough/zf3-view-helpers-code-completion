@@ -1,0 +1,31 @@
+{
+    "name": "deanblackborough/zf3-view-helpers-code-completion",
+    "description": "Helper classes to provide code completion for Zend view helpers",
+    "autoload": {
+        "psr-4" : {
+            "DBlackborough\\Zf3ViewHelpersCC\\" : "src/"
+        }
+    },
+    "homepage": "https://github.com/deanblackborough/zf3-view-helpers-code-completion",
+    "keywords": [ "zf3", "view helpers", "bootstrap", "zend", "code completion", "phpStorm" ],
+    "authors": [
+        {
+            "name": "Dean Blackborough",
+            "email": "dean@g3d-development.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "zendframework/zend-view": "^2.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/deanblackborough/zf3-view-helpers-code-completion"
+        }
+    ],
+    "license": "MIT"
+}
