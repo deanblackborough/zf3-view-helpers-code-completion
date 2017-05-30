@@ -11,7 +11,7 @@ declare(strict_types=1);
  * invoke method as though it was the constructor.
  *
  * @author Dean Blackborough <dean@g3d-development.com>
- * @copyright Copyright (c) 2017 G3D Development Limited
+ * @copyright Copyright (c) 2017 Dean Blackborough
  * @license https://github.com/Dlayer/zf3-view-helpers-code-completion/blob/master/LICENSE
  */
 
