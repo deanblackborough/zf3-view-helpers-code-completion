@@ -1,6 +1,6 @@
 {
     "name": "deanblackborough/zf3-view-helpers-code-completion",
-    "description": "Helper classes to provide code completion for Zend view helpers",
+    "description": "Helper classes to provide code completion for Zend view helpers and my custom view helpers",
     "autoload": {
         "psr-4" : {
             "DBlackborough\\Zf3ViewHelpersCC\\" : "src/"
@@ -16,7 +16,8 @@
     ],
     "require": {
         "php": "^7.1",
-        "zendframework/zend-view": "^2.9"
+        "zendframework/zend-view": "^2.9",
+        "deanblackborough/zf3-view-helpers": "v0.*.*"
     },
     "require-dev": {
 
