@@ -4,55 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ecf008c7072f9d4a9121dac5dbd30e9",
+    "content-hash": "5a6ff834705bf427fbb829d42a195276",
     "packages": [
-        {
-            "name": "deanblackborough/zf3-view-helpers",
-            "version": "v0.40.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/deanblackborough/zf3-view-helpers.git",
-                "reference": "1ec61893f4a34bbc622ad9616e0c6966819b0b1d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/1ec61893f4a34bbc622ad9616e0c6966819b0b1d",
-                "reference": "1ec61893f4a34bbc622ad9616e0c6966819b0b1d",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1",
-                "zendframework/zend-view": "^2.9"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "DBlackborough\\Zf3ViewHelpers\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dean Blackborough",
-                    "email": "dean@g3d-development.com"
-                }
-            ],
-            "description": "A collection of view helpers for ZF3",
-            "homepage": "https://github.com/deanblackborough/zf3-view-helpers",
-            "keywords": [
-                "bootstrap",
-                "view helpers",
-                "zend",
-                "zf3"
-            ],
-            "time": "2017-05-25T23:29:23+00:00"
-        },
         {
             "name": "zendframework/zend-eventmanager",
             "version": "3.1.0",

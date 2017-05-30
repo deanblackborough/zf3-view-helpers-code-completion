@@ -16,8 +16,7 @@
     ],
     "require": {
         "php": "^7.1",
-        "zendframework/zend-view": "^2.9",
-        "deanblackborough/zf3-view-helpers": "v0.*.*"
+        "zendframework/zend-view": "^2.9"
     },
     "require-dev": {
 
