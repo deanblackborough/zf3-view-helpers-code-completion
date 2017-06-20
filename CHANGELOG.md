@@ -13,7 +13,7 @@ Full changelog for ZF3 view helpers code completion library.
 
 ## v1.00 - Initial release - 2017-05-30
 
-* Code completion helper classes for Zend view helpers as well Zend and my own view helpers
+* Code completion helper class for Zend view helpers as well and my own view helpers
 
 ## v0.10 (Initial release) - 2017-05-30
 
