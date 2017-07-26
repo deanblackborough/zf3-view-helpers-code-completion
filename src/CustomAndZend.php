@@ -77,6 +77,20 @@ class CustomAndZend
     public function bootstrap4NavbarLite() : Zf3ViewHelpers\Bootstrap4NavbarLite {}
 
     /**
+     * Create a Bootstrap 4 progress bar
+     *
+     * @return Zf3ViewHelpers\Bootstrap4ProgressBar
+     */
+    public function bootstrap4ProgressBar(): Zf3ViewHelpers\Bootstrap4ProgressBar {}
+
+    /**
+     * Create a multiple bar Bootstrap 4 progress bar
+     *
+     * @return Zf3ViewHelpers\Bootstrap4ProgressBarMultiple
+     */
+    public function bootstrap4ProgressBarMultiple(): Zf3ViewHelpers\Bootstrap4ProgressBarMultiple {}
+
+    /**
      * @param string $asset
      *
      * @return string
