@@ -4,8 +4,8 @@ Full changelog for ZF3 view helpers code completion library.
 
 ## v1.04.0 - Card component - 2017-08-xx
 
-* Added entries for Bootstrap card component. [In progress]
-* Added entries for Bootstrap card deck component. [In progress]
+* Added entries for Bootstrap card component.
+* Added entries for Bootstrap card deck component.
 * Corrected entries for progress bar and multiple progress bar.
 
 ## v1.03.0 - Progress bar - 2017-07-26
