@@ -60,6 +60,16 @@ class CustomAndZend
     public function bootstrap4Button(string $label) : Zf3ViewHelpers\Bootstrap4Button {}
 
     /**
+     * Create a Bootstrap 4 card
+     *
+     * @param string $width_class Optional card width class
+     * @param string $width_attr Optional card width style attribute
+     *
+     * @return Zf3ViewHelpers\Bootstrap4Card
+     */
+    public function bootstrap4Card(string $width_class = '', string $width_attr = '') : Zf3ViewHelpers\Bootstrap4Card {}
+
+    /**
      * Create a Bootstrap 4 jumbotron component
      *
      * @param string $heading
@@ -79,16 +89,20 @@ class CustomAndZend
     /**
      * Create a Bootstrap 4 progress bar
      *
+     * @param integer $value Current progress bar value
+     *
      * @return Zf3ViewHelpers\Bootstrap4ProgressBar
      */
-    public function bootstrap4ProgressBar(): Zf3ViewHelpers\Bootstrap4ProgressBar {}
+    public function bootstrap4ProgressBar(int $value): Zf3ViewHelpers\Bootstrap4ProgressBar {}
 
     /**
      * Create a multiple bar Bootstrap 4 progress bar
      *
+     * @param array $values Progress bar values, array of integers
+     *
      * @return Zf3ViewHelpers\Bootstrap4ProgressBarMultiple
      */
-    public function bootstrap4ProgressBarMultiple(): Zf3ViewHelpers\Bootstrap4ProgressBarMultiple {}
+    public function bootstrap4ProgressBarMultiple(array $values): Zf3ViewHelpers\Bootstrap4ProgressBarMultiple {}
 
     /**
      * @param string $asset
