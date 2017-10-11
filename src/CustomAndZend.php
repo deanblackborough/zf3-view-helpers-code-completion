@@ -99,10 +99,11 @@ class CustomAndZend
      * Create a multiple bar Bootstrap 4 progress bar
      *
      * @param array $values Progress bar values, array of integers
+     * @param array $colors Bg utility classes to use for progress bar section
      *
      * @return Zf3ViewHelpers\Bootstrap4ProgressBarMultiple
      */
-    public function bootstrap4ProgressBarMultiple(array $values): Zf3ViewHelpers\Bootstrap4ProgressBarMultiple {}
+    public function bootstrap4ProgressBarMultiple(array $values, array $colors): Zf3ViewHelpers\Bootstrap4ProgressBarMultiple {}
 
     /**
      * @param string $asset
