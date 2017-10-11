@@ -2,6 +2,10 @@
 
 Full changelog for ZF3 view helpers code completion library.
 
+## v1.05.0 - View helper refactoring - 2017-10-11
+
+* Updated bootstrap4ProgressBarMultiple(), zf3-view-helpers library has undergone refactoring. 
+
 ## v1.04.1 - Changelog correction - 2017-08-23
 
 * Release date incorrect in changelog

@@ -9,19 +9,20 @@
     "packages-dev": [
         {
             "name": "deanblackborough/zf3-view-helpers",
-            "version": "v0.40.1",
+            "version": "v0.66.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/zf3-view-helpers.git",
-                "reference": "1ec61893f4a34bbc622ad9616e0c6966819b0b1d"
+                "reference": "62f18dfbea730d90cd3a5fbd8eda0b9138995e43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/1ec61893f4a34bbc622ad9616e0c6966819b0b1d",
-                "reference": "1ec61893f4a34bbc622ad9616e0c6966819b0b1d",
+                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/62f18dfbea730d90cd3a5fbd8eda0b9138995e43",
+                "reference": "62f18dfbea730d90cd3a5fbd8eda0b9138995e43",
                 "shasum": ""
             },
             "require": {
+                "deanblackborough/zf3-view-helpers-code-completion": "^1",
                 "php": "^7.1",
                 "zendframework/zend-view": "^2.9"
             },
@@ -52,7 +53,7 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2017-05-25T23:29:23+00:00"
+            "time": "2017-10-11T14:10:57+00:00"
         },
         {
             "name": "zendframework/zend-eventmanager",
