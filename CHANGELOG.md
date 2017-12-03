@@ -2,6 +2,11 @@
 
 Full changelog for ZF3 view helpers code completion library.
 
+## v1.06.0 - Alert view helper - 2017-12-03
+
+* Added call for the Bootstrap 4 alert view helper.
+* Updated requirements, now requires ^v1 of deanblackborough/zf3-view-helpers
+
 ## v1.05.0 - View helper refactoring - 2017-10-11
 
 * Updated bootstrap4ProgressBarMultiple(), zf3-view-helpers library has undergone refactoring. 

@@ -42,6 +42,15 @@ use Zend\View\Helper\ViewModel;
 class CustomAndZend
 {
     /**
+     * Create a Bootstrap 4 alert
+     *
+     * @param string $message HTML content to display inside the alert
+     *
+     * @return Zf3ViewHelpers\Bootstrap4Alert
+     */
+    public function bootstrap4Alert(string $message) : Zf3ViewHelpers\Bootstrap4Alert {}
+
+    /**
      * Create a Bootstrap 4 badge
      *
      * @param string $label
