@@ -19,7 +19,7 @@
     },
     "require-dev": {
         "zendframework/zend-view": "^2.9",
-        "deanblackborough/zf3-view-helpers": "0.*"
+        "deanblackborough/zf3-view-helpers": "^1"
     },
     "repositories": [
         {

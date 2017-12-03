@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f00ea7a0d30a3bc264d6e1c8e427225",
+    "content-hash": "12445af62d0de8cf3256404d9977632c",
     "packages": [],
     "packages-dev": [
         {
             "name": "deanblackborough/zf3-view-helpers",
-            "version": "v0.66.0",
+            "version": "v1.01.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deanblackborough/zf3-view-helpers.git",
-                "reference": "62f18dfbea730d90cd3a5fbd8eda0b9138995e43"
+                "reference": "06d58e552e2564df553f2ccee356b08c6d21de1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/62f18dfbea730d90cd3a5fbd8eda0b9138995e43",
-                "reference": "62f18dfbea730d90cd3a5fbd8eda0b9138995e43",
+                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/06d58e552e2564df553f2ccee356b08c6d21de1e",
+                "reference": "06d58e552e2564df553f2ccee356b08c6d21de1e",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "zend",
                 "zf3"
             ],
-            "time": "2017-10-11T14:10:57+00:00"
+            "time": "2017-12-02T01:34:06+00:00"
         },
         {
             "name": "zendframework/zend-eventmanager",
