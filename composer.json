@@ -18,8 +18,7 @@
         "php": "^7.1"
     },
     "require-dev": {
-        "zendframework/zend-view": "^2.9",
-        "deanblackborough/zf3-view-helpers": "^1"
+        "zendframework/zend-view": "^2.9"
     },
     "repositories": [
         {
