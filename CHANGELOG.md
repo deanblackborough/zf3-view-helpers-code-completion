@@ -2,6 +2,11 @@
 
 Full changelog for ZF3 view helpers code completion library.
 
+## v1.06.1 - Minor corrections - 2018-01-05
+
+* Corrected dependencies.
+* Added suggests for PHP 7.2.
+
 ## v1.06.0 - Alert view helper - 2017-12-03
 
 * Added call for the Bootstrap 4 alert view helper.

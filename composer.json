@@ -15,7 +15,10 @@
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7"
+    },
+    "suggest": {
+        "php": "^7.2"
     },
     "require-dev": {
         "zendframework/zend-view": "^2.9"
