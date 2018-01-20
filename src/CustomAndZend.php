@@ -391,7 +391,7 @@ class CustomAndZend
      *
      * @return HtmlTag
      */
-    public function HtmlTag(array $attribs) : HtmlTag {}
+    public function htmlTag(array $attribs) : HtmlTag {}
 
     /**
      * Retrieve the current identity, if any.
@@ -426,7 +426,7 @@ class CustomAndZend
      *
      * @return string|void
      */
-    public function json(mixed $data, array $jsonOptions) : string {}
+    public function json($data, array $jsonOptions) : string {}
 
     /**
      * Set layout template or retrieve "layout" view model
