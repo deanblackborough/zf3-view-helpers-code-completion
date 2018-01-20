@@ -79,6 +79,15 @@ class CustomAndZend
     public function bootstrap4Card(string $width_class = '', string $width_attr = '') : Zf3ViewHelpers\Bootstrap4Card {}
 
     /**
+     * Create a Bootstrap 4 column
+     *
+     * @param string $content Column content
+     *
+     * @return Zf3ViewHelpers\Bootstrap4Column
+     */
+    public function bootstrap4Column(string $content): Zf3ViewHelpers\Bootstrap4Column {}
+
+    /**
      * Create a Bootstrap 4 jumbotron component
      *
      * @param string $heading
@@ -113,6 +122,15 @@ class CustomAndZend
      * @return Zf3ViewHelpers\Bootstrap4ProgressBarMultiple
      */
     public function bootstrap4ProgressBarMultiple(array $values, array $colors): Zf3ViewHelpers\Bootstrap4ProgressBarMultiple {}
+
+    /**
+     * Create a bootstrap 4 row
+     *
+     * @param string $content Row content
+     *
+     * @return Zf3ViewHelpers\Bootstrap4Row
+     */
+    public function bootstrap4Row(string $content): Zf3ViewHelpers\Bootstrap4Row {}
 
     /**
      * @param string $asset

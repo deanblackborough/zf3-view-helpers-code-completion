@@ -4,9 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8bb150e76fa6fb097f2e2a99b4893105",
+    "content-hash": "2c9bfbf0ada09ef78a164cb9db2fe40a",
     "packages": [],
     "packages-dev": [
+        {
+            "name": "deanblackborough/zf3-view-helpers",
+            "version": "v1.02.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deanblackborough/zf3-view-helpers.git",
+                "reference": "1e29e7d2e9c0d3850c4df163db87d015b3dc27f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deanblackborough/zf3-view-helpers/zipball/1e29e7d2e9c0d3850c4df163db87d015b3dc27f6",
+                "reference": "1e29e7d2e9c0d3850c4df163db87d015b3dc27f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7",
+                "zendframework/zend-view": "^2.10"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "suggest": {
+                "deanblackborough/zf3-view-helpers-code-completion": "^1",
+                "php": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DBlackborough\\Zf3ViewHelpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dean Blackborough",
+                    "email": "dean@g3d-development.com"
+                }
+            ],
+            "description": "A bunch of view helpers that I use in my Zend Framework 3 apps",
+            "homepage": "https://github.com/deanblackborough/zf3-view-helpers",
+            "keywords": [
+                "bootstrap",
+                "bootstrap4",
+                "framework",
+                "view helpers",
+                "zend",
+                "zf3"
+            ],
+            "time": "2018-01-20T21:53:03+00:00"
+        },
         {
             "name": "zendframework/zend-eventmanager",
             "version": "3.2.0",
@@ -152,16 +205,16 @@
         },
         {
             "name": "zendframework/zend-view",
-            "version": "2.9.0",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-view.git",
-                "reference": "3b6342c381c4437a03fc81d0064c0bb8924914d3"
+                "reference": "4478cc5dd960e2339d88b363ef99fa278700e80e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/3b6342c381c4437a03fc81d0064c0bb8924914d3",
-                "reference": "3b6342c381c4437a03fc81d0064c0bb8924914d3",
+                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/4478cc5dd960e2339d88b363ef99fa278700e80e",
+                "reference": "4478cc5dd960e2339d88b363ef99fa278700e80e",
                 "shasum": ""
             },
             "require": {
@@ -192,7 +245,7 @@
                 "zendframework/zend-router": "^3.0.1",
                 "zendframework/zend-serializer": "^2.6.1",
                 "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3",
-                "zendframework/zend-session": "^2.6.2",
+                "zendframework/zend-session": "^2.8.1",
                 "zendframework/zend-uri": "^2.5"
             },
             "suggest": {
@@ -216,8 +269,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.9-dev",
-                    "dev-develop": "3.0-dev"
+                    "dev-master": "2.10.x-dev",
+                    "dev-develop": "2.11.x-dev"
                 }
             },
             "autoload": {
@@ -235,7 +288,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2017-03-21T15:05:56+00:00"
+            "time": "2018-01-17T22:21:50+00:00"
         }
     ],
     "aliases": [],
@@ -244,7 +297,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1"
+        "php": "^7"
     },
     "platform-dev": []
 }

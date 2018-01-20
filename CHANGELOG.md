@@ -2,6 +2,11 @@
 
 Full changelog for ZF3 view helpers code completion library.
 
+## v1.07.0 - Row and Column - 2018-01-20
+
+* More updates to dependencies.
+* Added calls for Bootstrap 4 row and column view helpers.
+
 ## v1.06.1 - Minor corrections - 2018-01-05
 
 * Corrected dependencies.

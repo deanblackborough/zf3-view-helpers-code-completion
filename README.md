@@ -1,6 +1,7 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/deanblackborough/zf3-view-helpers-code-completion.svg?style=flat-square)](https://packagist.org/packages/deanblackborough/zf3-view-helpers-code-completion)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/deanblackborough/zf3-view-helpers-code-completion/blob/master/LICENSE)
-[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.1-8892BF.svg)](https://php.net/)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207-8892BF.svg)](https://php.net/)
+[![Total Downloads](https://img.shields.io/packagist/dt/deanblackborough/zf3-view-helpers-code-completion.svg?style=flat-square)](https://packagist.org/packages/deanblackborough/zf3-view-helpers-code-completion)
 
 # ZF3 View helpers code completion
 
